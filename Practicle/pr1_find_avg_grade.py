@@ -16,13 +16,13 @@ print("Your average is: ", avg)
 
 if (avg>90):
     print("Grade: A")
-elif (avg<90 & avg>=80):
+elif (avg<90 and avg>=80):
     print("Grade: B")
-elif (avg<80 & avg>=70):
+elif (avg<80 and avg>=70):
     print("Grade: C")
-elif (avg<70 & avg>=60):
+elif (avg<70 and avg>=60):
     print("Grade: D")
-elif (avg<60 & avg>=50):
+elif (avg<60 and avg>=50):
     print("Grade: E")
 else:
     print("Grade: F")
